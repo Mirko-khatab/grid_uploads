@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+font-family: 'Barlow Semi Condensed',
+sans-serif;
+    font-size: 13px;
+    
+}
+.item{
+    @apply   items-center p-4 border-2 border-x-blue-200 rounded-lg shadow-md ;
+}
